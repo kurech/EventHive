@@ -1,2 +1,0 @@
-# EventHive
-React, TypeScript, .Net
