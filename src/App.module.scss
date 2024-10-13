@@ -1,0 +1,380 @@
+$primary: #7848F4;
+$white: white;
+$black: black;
+$gray: #7E7E7E;
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  margin: 0 0;
+  font-family: 'Product Sans', sans-serif;
+  box-sizing: border-box;
+}
+p {
+  margin: 0 0;
+}
+
+.w5 {
+  width: 5%;
+}
+
+.w29 {
+  width: 29%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.wMinCnt {
+  width: min-content;
+}
+
+.leftWhiteBar {
+  width: 20%;
+}
+
+.rightWhiteBar {
+  width: 20%;
+}
+
+.content {
+  width: 60%;
+}
+
+.cursorDefault {
+  cursor: default;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.fontsize14 {
+  font-size: 14px;
+}
+
+.fontsize16 {
+  font-size: 16px;
+}
+
+.fontsize18 {
+  font-size: 18px;
+}
+
+.fontsize20 {
+  font-size: 20px;
+}
+
+.fontsize24 {
+  font-size: 24px;
+}
+
+.fontsize28 {
+  font-size: 28px;
+}
+
+.fontsize32 {
+  font-size: 32px;
+}
+
+.fweightBold {
+  font-weight: bold;
+}
+
+.cWhite {
+  color: $white;
+}
+.cPrimary {
+  color: $primary;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.dInlineBlock {
+  display: inline-block;
+}
+
+.alitCenter {
+  align-items: center;
+}
+
+.jscntSpBetw {
+  justify-content: space-between;
+}
+
+.jscntCenter {
+  justify-content: center;
+}
+
+.margin0Auto {
+  margin: 0 auto;
+}
+
+.marginTop8 {
+  margin-top: 8px;
+}
+
+.marginTop16 {
+  margin-top: 16px !important;
+}
+
+.marginLeft1Per {
+  margin-left: 1%;
+}
+
+.marginLeft16 {
+  margin-left: 16px;
+}
+
+.marginRight1Per {
+  margin-right: 1%;
+}
+
+.marginBottom8 {
+  margin-bottom: 8px;
+}
+
+.whtSpaceNowrap {
+   white-space: nowrap;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.mainPhoto {
+  width: 100%;
+}
+
+.searchInput{
+  width: 100%;
+  border-radius: 5px;
+  height: 25px;
+  border: 0;
+  padding-left: 8px;
+}
+
+.searchButton {
+  background-color: #7848F4;
+  border-radius: 5px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.signUpButton {
+  background-color: #7848F4;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  font-family: 'Product Sans', sans-serif;
+  font-size: 18px;
+  width: 150px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.events {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+.mCards {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: left;
+}
+
+.oneOfCard {
+  width: 30%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.27);
+  padding: 12px;
+  margin-bottom: 16px;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+
+.hoverBoxShadow {
+  position: relative;
+}
+
+.hoverBoxShadow:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: box-shadow 1s;
+  box-shadow: none;
+}
+
+.hoverBoxShadow:hover:after {
+  box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.5);
+}
+
+.oneOfCardPhoto{
+  height: 250px !important;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+input {
+  font-family: 'Product Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+footer {
+  margin-top: 32px;
+  background-color: #10107B;
+  padding: 16px;
+}
+
+.footContent {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.footText {
+  width: 350px !important;
+  font-size: 14px !important;
+}
+
+.signupButton {
+  background-color: #7848F4;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  font-family: 'Product Sans', sans-serif;
+  font-size: 18px;
+  width: 150px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btnhobert:hover {
+  background-color: #10107B;
+  transition: 0.7s;
+}
+
+.hobert:hover{
+  transition: 0.25s;
+  color: #7848F4;
+}
+
+.fBack {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -50px;
+  z-index: 100;
+  display: flex;
+  background-color: #10107B;
+  width: 90%;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.overflowyHidden{
+  overflow-y: hidden;
+}
+
+.signLeftBar {
+  width: 60%;
+  height: 100dvh;
+  background-color: #F8F8FA;
+}
+
+.signRightBar {
+  width: 40%;
+  height: 100dvh;
+}
+
+.signRightBar img {
+  width: 100%;
+  height: 100dvh;
+  object-fit: cover;
+}
+
+.logonLeftBar {
+  width: 40%;
+  height: 100dvh;
+}
+
+.logonLeftBar img {
+  width: 100%;
+  height: 100dvh;
+  object-fit: cover;
+}
+
+.logonRightBar {
+  width: 60%;
+  height: 100dvh;
+  background-color: #F8F8FA;
+}
+
+.logonContainer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.logonContainer p {
+    cursor: default;
+}
+
+.logonInput {
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.logonButton {
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 16px;
+  background-color: #7848F4;
+  color: white;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.logonButton:active {
+  background-color: #4800ff;
+}
+
+.taCenter {
+  text-align: center;
+}
