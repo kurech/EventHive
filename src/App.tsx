@@ -6,6 +6,7 @@ import Registration from "./components/authorization/Registration";
 import { UserProvider } from "./UserContext";
 import { useEffect } from "react";
 import Cookies from "js-cookie";
+import ProfileMain from "./components/profile/ProfileMain";
 
 const AppContent: React.FC = () => {
   const { setUser } = useUser();
@@ -27,9 +28,7 @@ const AppContent: React.FC = () => {
             setUser(data.value.user);
           }
         })
-        .catch((error) => {
-          console.error("Ошибка проверки токена:", error);
-        });
+        .catch((error) => {});
     }
   }, [setUser]);
 
@@ -42,6 +41,8 @@ const AppContent: React.FC = () => {
         <Route path="/logon/authorization" element={<Auth />} />
         {/* Страница регистрации */}
         <Route path="/logon/registration" element={<Registration />} />
+        {/* Страница профиля */}
+        <Route path="/profile" element={<ProfileMain />} />
       </Routes>
     </Router>
   );

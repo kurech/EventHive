@@ -8,12 +8,13 @@ export interface User {
   lastName: string;
   firstName: string;
   middleName: string;
-  creationDate: string;
+  creationDate: number;
   roleId: string;
   role: {
     id: string;
     name: string;
   };
+  institutionId: string;
   isDeleted: boolean;
 }
 

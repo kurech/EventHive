@@ -21,7 +21,7 @@ function Header({ currentUser }: Props) {
       <div className={styles.header}>
         <div>
           <a
-            href="#"
+            href="/"
             className={`${styles.fweightBold} ${styles.whtSpaceNowrap} ${styles.fontsize24}`}
           >
             Event <span className={styles.cPrimary}>Hive</span>
@@ -45,7 +45,7 @@ function Header({ currentUser }: Props) {
       <div className={styles.header}>
         <div>
           <a
-            href="#"
+            href="/"
             className={`${styles.fweightBold} ${styles.whtSpaceNowrap} ${styles.fontsize24}`}
           >
             Event <span className={styles.cPrimary}>Hive</span>
@@ -60,7 +60,7 @@ function Header({ currentUser }: Props) {
                 </a>
               ) : null}
               <a
-                href="#"
+                href="/profile"
                 className={`${styles.marginLeft16} ${styles.fontsize18} ${styles.hobert}`}
               >
                 {currentUser.email}
